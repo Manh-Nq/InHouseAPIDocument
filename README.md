@@ -266,7 +266,7 @@ InHouse app tutorial
 App Manager Screen
 - [function get all apps from server](#Get-all-apps-advertisement)
 - [function delete some app](#Delete-app-from-server)
--[add more app to server](#Add-new-app)
+- [add more app to server](#Add-new-app)
 Edit app Screen 
 - [get info app from server](#Get-info-app)
 - [update info app from server](#Update-info-App)
