@@ -5,8 +5,7 @@ Tutorial use API In-House
 
 ## APP
 
-# af1 
-Get all apps advertisement
+#  Get all apps advertisement
 
 ```bash
 GET : /apps/{page}/{per_page}
@@ -279,7 +278,7 @@ value :
 ```
 InHouse app tutorial
 App Manager Screen
-- function get all apps from server : [App function 1](#af1)
+- function get all apps from server : [App function 1](#Get all apps advertisement)
 - function delete some app :  [App function 2](#af2)
 - add more app to server: [App function 3](#af3)
 Edit app Screen 
