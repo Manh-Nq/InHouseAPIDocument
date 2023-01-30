@@ -2,6 +2,24 @@
 
 Tutorial use API In-House
 
+# App Manager Screen
+- [function get all apps from server](#Get-all-apps-advertisement)
+- [function delete some app](#Delete-app-from-server)
+- [add more app to server](#Add-more-app-to-server)
+
+# Edit app Screen 
+- [get info app from server](#Get-info-app)
+- [update info app from server](#Update-info-App)
+- [restore info app](#Restore-App)
+
+# Campaign Screen
+- [get all campaigns from server](#Get-all-campaign)
+- [delete some campaign by id](#Delete-campaign)
+- [pause/resume campaign by id](#Update-Campaign)
+- [create new campaign](#Create-Campaign)
+- [get info campaign by filter](#Get-info-campaign)
+
+
 ## APP
 
 ### Get all apps advertisement
@@ -262,22 +280,4 @@ value :
   "click": Integer
 }
 ```
-InHouse app tutorial
-# App Manager Screen
-- [function get all apps from server](#Get-all-apps-advertisement)
-- [function delete some app](#Delete-app-from-server)
-- [add more app to server](#Add-more-app-to-server)
-
-# Edit app Screen 
-- [get info app from server](#Get-info-app)
-- [update info app from server](#Update-info-App)
-- [restore info app](#Restore-App)
-
-# Campaign Screen
-- [get all campaigns from server](#Get-all-campaign)
-- [delete some campaign by id](#Delete-campaign)
-- [pause/resume campaign by id](#Update-Campaign)
-- [create new campaign](#Create-Campaign)
-- [get info campaign by filter](#Get-info-campaign)
-
 
