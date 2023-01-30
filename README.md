@@ -296,8 +296,8 @@ GET /apps/ads/{id}
     PARAM     | DESCRIPTION
 
     languagge | String (require) 
-    nationals | String (require) 
-    hobbies   | String (require)
+    national  | String (require) 
+    hobby     | String (require)
 appInstalled  | String[](default empty)
 ```
 
