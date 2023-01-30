@@ -5,7 +5,8 @@ Tutorial use API In-House
 
 ## APP
 
-#af1 . Get all apps advertisement
+# af1 
+Get all apps advertisement
 
 ```bash
 GET : /apps/{page}/{per_page}
