@@ -302,6 +302,7 @@ GET /apps/ads/{id}
   "des" : String,
   "rateCount" : Int,
   "totalInstallCount" :  Int,
+  "adsType":String
   },
  ...
 ]
