@@ -49,7 +49,7 @@ value :
 }
 ```
 
-function 2. Delete app from server
+### Delete app from server
 
 ```bash
 DELETE /apps/{id}/delete
@@ -57,7 +57,7 @@ DELETE /apps/{id}/delete
 ```bash
 Response : code 200
 ```
-function 3. Add new app
+### Add new app
 
 ```bash
 POST /apps/create_app
@@ -78,7 +78,7 @@ Body:
 Response : code 200
 ```
 
-function 4. Get info app
+### Get info app
 ```bash
 GET /apps/{id}
 ```
@@ -98,7 +98,7 @@ value :
 }
 ```
 
-function 5. Update info App
+### Update info App
 ```bash
 POST /apps/:id
 ```
@@ -119,7 +119,7 @@ Body:
 Response : code 200 - success
 ```
 
-function 6. Restore App
+### Restore App
 ```bash
 GET /apps/{id}/restore
 ```
@@ -139,7 +139,7 @@ value :
 ```
 
 ## Campaign
-function 1. Get all campaign
+### Get all campaign
 ```bash
 GET /campaigns/{page}/{perpage}
 ```
@@ -180,7 +180,7 @@ value :
 }
 ```
 
-function 2. Delete campaign
+### Delete campaign
 ```bash
 DELETE /campaigns/{id}/delete
 ```
@@ -189,20 +189,7 @@ DELETE /campaigns/{id}/delete
 Response : code 200
 ```
 
-function 3. Update Campaign
-```bash
-POST /campaigns/{id}
-```
-```bash
-    PARAM     | DESCRIPTION
-
-    isActive  | state active of campaign (require)   
-```
-```bash
-Response : code 200
-```
-
-function 4. Create Campaign
+### Create Campaign
 ```bash
 POST /campaigns/create_campaign
 ```
@@ -227,7 +214,7 @@ Body:
 Response : code 200
 ```
 
-function 5. Update Campaign
+### Update Campaign
 ```bash
 POST /campaigns/update_campaign/{id}
 ```
@@ -251,7 +238,7 @@ Body:
 Response : code 200
 ```
 
-function 6. Get info campaign
+### Get info campaign
 ```bash
 GET /campaigns/{id}
 ```
@@ -277,19 +264,18 @@ value :
 ```
 InHouse app tutorial
 App Manager Screen
-- function get all apps from server : [App function 1](#Get-all-apps-advertisement)
-- function delete some app :  [App function 2](#af2)
-- add more app to server: [App function 3](#af3)
+- [function get all apps from server](#Get-all-apps-advertisement)
+- [function delete some app](#Delete-app-from-server)
+-[add more app to server](#Add-new-app)
 Edit app Screen 
-- get info app from server : [App function 4](#af4)
-- update info app from server : [App function 5](#af5)
-- restore info app : [App function 6](#af6)
+- [get info app from server](#Get-info-app)
+- [update info app from server](#Update-info-App)
+- [restore info app](#Restore-App)
 Campaign Screen
-- get all campaigns from server: [Campaign function 1](#cf1)
-- delete some campaign by id : [Campaign function 2](#cf2)
-- pause/resume campaign by id : [Campaign function 3](#cf3)
-- create new campaign : [Campaign function 4](#cf4)
-- update campaign by id : [Campaign function 5](#cf5)
-- get info campign by filter : [Campaign function 6](#cf6)
+- [get all campaigns from server](#Get-all-campaign)
+- [delete some campaign by id](#Delete-campaign)
+- [pause/resume campaign by id](#Update-Campaign)
+- [create new campaign](#Create-Campaign)
+- [get info campign by filter](#Get-info-campaign)
 
 
