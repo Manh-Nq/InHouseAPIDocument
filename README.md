@@ -19,6 +19,9 @@ Tutorial use API In-House
 - [create new campaign](#Create-Campaign)
 - [get info campaign by filter](#Get-info-campaign)
 
+# Mobile Client
+- [Get all app ads](#Get-all-app-ads)
+
 
 ## APP
 
@@ -83,6 +86,7 @@ POST /apps/create_app
 ```bash
 Body: 
 {
+  "appUrl":String
   "iconUrl" : String ,
   "title" : String,
    "des" : String ,
@@ -279,5 +283,30 @@ value :
   "installCount": Integer
   "click": Integer
 }
+```
+
+# Mobile Client
+
+### Get all app ads
+```bash
+GET /apps/ads/{id}
+```
+### Response
+```bash
+[
+ {
+  "id" : Int,
+  "appUrl":String,
+  "iconUrl" : String,
+  "title" : String,
+  "des" : String,
+  "rateCount" : Int,
+  "totalInstallCount" :  Int,
+  },
+ ...
+]
+```
+```bash
+Response : code 200
 ```
 
