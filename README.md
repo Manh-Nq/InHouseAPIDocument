@@ -1,11 +1,10 @@
 # IN-HOUSE API
 
 Tutorial use API In-House
-[Titles](#titles)
 
 ## APP
 
-#  Get all apps advertisement
+# Get all apps advertisement
 
 ```bash
 GET : /apps/{page}/{per_page}
