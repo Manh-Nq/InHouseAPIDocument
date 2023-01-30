@@ -291,6 +291,16 @@ value :
 ```bash
 GET /apps/ads/{id}
 ```
+
+```bash
+    PARAM     | DESCRIPTION
+
+    languagge | String (require) 
+    nationals | String (require) 
+    hobbies   | String (require)
+appInstalled  | String[](default empty)
+```
+
 ### Response
 ```bash
 [
