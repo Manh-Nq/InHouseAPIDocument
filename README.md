@@ -269,7 +269,7 @@ GET /campaigns/{id}
     PARAM     | DESCRIPTION
 
     appId     | id of app need show infomation (require) 
- shortDateType| short type do filter infomation with it (require)   
+ shortDateType| sort type do filter infomation with it (require)   
 ```
 ```bash
 Response : code 200
